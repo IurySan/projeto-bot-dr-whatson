@@ -1,0 +1,34 @@
+<nav class="wrn-navbar wrn-bg-gradient-1"><div class="wrn-container-fluid wrn-row"><!-- ngIf: c_suitability.isJA --><!-- ngIf: !c_suitability.isJA --><div ng-if="!c_suitability.isJA"><div class="wrn-c-sm-1 wrn-c-lg-1 wrn-text-left"><a href="https://oiwarren.com/" class="wrn-link"><img src="https://oiwarren.com/assets/imgs/home/ico_down_arrow.svg" class="wrn-rotate-90 wrn-navbar-icon"></a></div><div class="wrn-c-10 wrn-text-center"><p class="wrn-navbar-text wrn-text-u-2">Descobrindo seu perfil</p></div></div><!-- end ngIf: !c_suitability.isJA --></div></nav>
+
+
+    <div class="container">
+        <div id="no-script" class="bg-info">
+            This application needs JavaScript enabled in your browser!
+        </div>
+        <div id="id_contextdump" class="wrn-chat-message" +="" wrn-typewrite="" type-delay="10" show-cursor="false" text="::text" before-char-fn="::c_suitability.onBeforeWrite();" after-char-fn="::c_suitability.onAfterWrite();" callback-fn="::c_suitability.onAfterMessage();"></div>
+        <h1 id="teste-teste">My BOT</h1>
+        <div id="id_botchathistory" class="wrn-chat-message wrn-chat-row wrn-chat-row-left" +="" wrn-typewrite="" type-delay="10" show-cursor="false" text="::text" before-char-fn="::c_suitability.onBeforeWrite();" after-char-fn="::c_suitability.onAfterWrite();" callback-fn="::c_suitability.onAfterMessage(
+);" >
+        </div>
+        <div>
+            <form>
+
+            <div class="wrn-inputbar wrn-inputbar-fixed input" ng-if="true" style="">
+    <form name="form">
+        <div class="wrn-row wrn-container">
+            <div class="wrn-c-sm-9 wrn-c-lg-10 wrn-hidden-mobile">
+                <input type="text" name="chattext" id="id_chattext" placeholder="Digite aqui..." required="" class="ng-pristine  ng-invalid ng-invalid-required ng-touched">
+            </div>
+            <div class="wrn-c-sm-3 wrn-c-lg-2">
+                <button  onclick="javascript:onChatClick()" class="wrn-button" type="text" name="chattext" id="id_chattext">Send</button>
+            </div>
+        </div>
+    </form>
+</div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div id="payload-request" class="payload"></div>
